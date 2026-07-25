@@ -1,0 +1,11 @@
+name: PvPHeads
+version: '1.0.0'
+main: de.gamematex.pvpheads.PvPHeadsPlugin
+api-version: '1.21.11'
+author: GamemateX
+description: Spawnt bei PvP-Kills einen platzierbaren, absaugbaren Spielerkopf mit dem Loot des Opfers.
+
+permissions:
+  pvpheads.use:
+    description: Erlaubt das Öffnen der Loot-Truhen-GUI eines platzierten Loot-Kopfes.
+    default: true
